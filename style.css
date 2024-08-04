@@ -1,0 +1,163 @@
+body{
+    font-family: "Open Sans", sans-serif;
+    background-image:url(pexels-sanmane-1365425.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 40px;
+
+}
+.logo1{
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+
+}
+.logo1:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    position: relative;
+   
+}
+.header{
+    display: flex;
+}
+.navlinks{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin: 20px;
+    font-size: 15px;
+}
+
+
+.navlinks li{
+    margin: 20px;
+    list-style: none;
+    position: relative;
+    left: 50px;
+    bottom: 20px;
+    color: white;
+}
+.navlinks li:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.search-bar{
+    border-radius: 50px;
+    border-bottom: 2px;
+    color: white;
+    position: relative;
+    left: 180px;
+    top: 15px;
+    
+}
+
+.search-bar input{
+    background-color: transparent;
+    outline: none;
+    color: white;
+    font-size: 15px;
+}
+.search-bar i{
+    position: relative;
+    left: 10px;
+    font-size: 18px;
+}
+.container{
+    display: flex;
+    margin: 50px;
+}
+.container_left,.container_right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.container-left.content{
+    display: grid;
+    gap: 1rem;
+}
+.content h1{
+    color: white;
+    font-size: 34px;
+    position: relative;
+    bottom: 10px;
+}
+.content p{
+    color: white;
+    position: relative;
+    bottom: 10px;
+}
+.buttons{
+    display: flex;
+    gap: 1.5rem;
+}
+.read{
+    border-radius: 10px;
+    font-size: 12px;
+    padding: .5rem 2rem;
+    background-color: transparent;
+    color: white;
+    border: 2px solid;
+}
+.read:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.container_right{
+    justify-content: flex-end;
+}
+form{
+    width: 350px;
+    display: grid;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.263);
+    color: white;
+    position: relative;
+    bottom: 20px;
+
+}
+form h4{
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 2rem;
+    position: relative;
+    bottom: 40px;
+}  
+form input{
+    background-color: transparent;
+    position: relative;
+    bottom: 80px;
+    width: 270px;
+    border-radius: 50px;
+    color: white;
+    font-size: 15px;
+    left: 15px;
+    margin: 15px;
+    padding: 8px;
+   
+    
+}
+
+.container_right button{
+    border-radius: 10px;
+    font-size: 12px;
+    padding: .5rem 2rem;
+    background-color: transparent;
+    color: white;
+    border: 2px solid;
+    width: 100px;
+    position: relative;
+    bottom: 25px;
+    left: 120px;
+    text-align: center;
+
+}
+.container_right button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
